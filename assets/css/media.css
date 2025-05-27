@@ -1,0 +1,229 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /* common css start  */
+    #career_io,
+ .h_main,
+ .w_main,
+ .i_main,
+ .t_main {
+     margin: 0 auto 50px auto;
+ }
+    /* header css start  */
+
+    .c_menu {}
+
+    .c_menu button,
+    .btn {
+        font-size: 16px;
+        padding: 12px 12px;
+    }
+
+    .c_logo h1 {
+        font-size: 22px;
+    }
+
+    /* hero css start  */
+    .h_main {
+        padding: 20px 30px;
+    }
+
+    .h_img img {
+        width: 100%;
+
+    }
+
+    .h_main h1 {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+
+    /* web devlopment css start  */
+    .w_card {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .w_title {
+        padding: 0 0 30px 0;
+    }
+
+    .w_title h1 {
+        padding-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .w_cardText p {
+
+        padding-bottom: 20px;
+    }
+ /* Inspiration css start  */
+
+    .video_section {
+    padding: 10px;
+}
+    /* Target css start  */
+    .t_card {
+        flex-direction: column;
+    }
+
+    .card_img img {
+        width: 40%;
+        padding-bottom: 15px;
+    }
+
+    .card {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .card h2 {
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+    /* Footer css start  */
+    .footer {
+        text-align: center;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .footer-right {
+        padding-top: 15px;
+
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* common css start  */
+    #career_io,
+ .h_main,
+ .w_main,
+ .i_main,
+ .t_main {
+     margin: 0 auto 70px auto;
+ }
+/* header css start  */
+
+    .c_menu {}
+
+    .c_menu button,
+    .btn {
+        padding: 12px 19px;
+        font-size: 18px;
+    }
+
+    /* hero css start  */
+    .h_main {
+        padding: 30px 50px;
+    }
+
+    .h_img img {
+        width: 80%;
+
+    }
+
+    .h_main h1 {
+        font-size: 40px;
+    }
+
+    /* web devlopment css start  */
+    .w_card {
+        flex-direction: column-reverse;
+    }
+
+    .w_title {
+        padding: 0 0 30px 0;
+    }
+
+    .w_title h1 {
+        padding-bottom: 20px;
+    }
+ /* Inspiration css start  */
+
+    .video_section {
+    padding: 20px;
+}
+    /* Target css start  */
+    .t_card {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    /* Footer css start  */
+    .footer {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .footer-right {
+        padding-top: 20px;
+
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* common css start  */
+    #career_io,
+ .h_main,
+ .w_main,
+ .i_main,
+ .t_main {
+     margin: 0 auto 80px auto;
+ }
+    /* header css start  */
+    .c_menu button,
+    .btn {
+        padding: 12px 19px;
+    }
+
+    /* hero css start  */
+    .h_img img {
+        width: 50%;
+
+    }
+
+    /* Target css start  */
+    .t_card {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    /* Footer css start  */
+    .footer {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .footer-right {
+        padding-top: 20px;
+
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* Target css start  */
+    .card {
+        padding: 40px 20px;
+        width: 260px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
